@@ -18,7 +18,7 @@ public class main {
 		int[] trucksa = {7,4,5,6};
 		System.out.println(trucks.solution(2, 11, trucksa));
 		
-    	// 3. HashMarathon			https://programmers.co.kr/learn/courses/30/lessons/42576
+		// 3. HashMarathon			https://programmers.co.kr/learn/courses/30/lessons/42576
 		HashMarathon hm = new HashMarathon();
 		String[] participant = {"leo","kiki","eden"};
 		String[] completion = {"eden", "kiki"};

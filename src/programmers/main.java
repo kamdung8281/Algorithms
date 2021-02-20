@@ -23,6 +23,17 @@ public class main {
 		String[] participant = {"leo","kiki","eden"};
 		String[] completion = {"eden", "kiki"};
 		System.out.println(hm.solution(participant, completion));
+		
+		// 4. HashDisguise			https://programmers.co.kr/learn/courses/30/lessons/42578
+		HashDisguise hd = new HashDisguise();
+		String[][] clothes = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
+		System.out.println(hd.solution(clothes));
+		
+		// 5. HashAlbum				https://programmers.co.kr/learn/courses/30/lessons/42579
+		HashAlbum ha = new HashAlbum();
+		String[] genres = {"classic", "pop", "classic", "classic", "pop"};
+		int[] plays = {500, 600, 150, 800, 2500};
+		for(Integer a : ha.solution(genres, plays)) System.out.println(a);
 	}
 
 }

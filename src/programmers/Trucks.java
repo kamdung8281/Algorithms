@@ -8,8 +8,7 @@ class Trucks {
         int answer = 0;
         int bridgeweight = 0;
         
-        ArrayDeque<Integer> waiting = new ArrayDeque<Integer>();
-        for(int l = 0; l<truck_weights.length;l++) waiting.offer(truck_weights[l]);
+        ArrayDeque<Integer> waiting = new ArrayDeque<Integer>(); for(int a:truck_weights) waiting.add(a);
         ArrayDeque<Integer> passing = new ArrayDeque<Integer>();
         ArrayDeque<Integer> passed = new ArrayDeque<Integer>();
         

@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.ArrayDeque;
 
-class Trucks {
+class QueueTrucks {
 
 	public int solution(int bridge_length, int weight, int[] truck_weights) {
         int answer = 0;

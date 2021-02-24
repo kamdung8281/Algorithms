@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.Stack;
 
-public class Towers {
+public class StackTowers {
 	public int[] solution(int[] heights) {
 		int[] answer = new int[heights.length];
 		Stack<Integer> stk = new Stack<Integer>();

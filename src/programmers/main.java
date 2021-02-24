@@ -33,7 +33,19 @@ public class main {
 		HashAlbum ha = new HashAlbum();
 		String[] genres = {"classic", "pop", "classic", "classic", "pop"};
 		int[] plays = {500, 600, 150, 800, 2500};
-		for(Integer a : ha.solution(genres, plays)) System.out.println(a);
+		for(Integer a : ha.solution(genres, plays)) System.out.print(a + ", ");
+		System.out.println();
+		
+		// 6. QueueStock			https://programmers.co.kr/learn/courses/30/lessons/42584
+		QueueStock qs = new QueueStock();
+		int[] prices = {1,2,3,2,3};
+		for (int a : qs.solution(prices)){
+			System.out.print(a + ", ");
+		}
+		System.out.println();
+		
+		
+		
 	}
 
 }

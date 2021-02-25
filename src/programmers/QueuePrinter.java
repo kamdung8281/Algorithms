@@ -46,12 +46,12 @@ public class QueuePrinter {
 	            if(d1.prior < temp){
 	                q.add(d1);
 	            } else{
+	                if(d1.flag==true){
+	                    return d1.order;
+	                }
 	                Iterator<doc> iter2 = q.iterator();
 	                while(iter2.hasNext()){
 	                    iter2.next().plus();
-	                }
-	                if(d1.flag==true){
-	                    return d1.order;
 	                }
 	            }
 	        }

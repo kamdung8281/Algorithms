@@ -51,6 +51,11 @@ public class main {
 //		for(int a : qf.solution(progresses, speeds)) System.out.print(a + ", ");
 //		System.out.println();
 		
+		// 8. QueuePrinter			https://programmers.co.kr/learn/courses/30/lessons/42587
+//		QueuePrinter qp = new QueuePrinter();
+//		int[] priorities = {2, 1, 3, 2};
+//		int location = 2;
+//		System.out.println(qp.solution(priorities, location));
 		
 		
 	}

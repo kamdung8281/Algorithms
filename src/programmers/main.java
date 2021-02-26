@@ -57,6 +57,12 @@ public class main {
 //		int location = 2;
 //		System.out.println(qp.solution(priorities, location));
 		
+		//9. HeapScoville			https://programmers.co.kr/learn/courses/30/lessons/42626
+		HeapScoville hs = new HeapScoville();
+		int[] scoville = {1, 2, 3, 9, 10, 12};
+		int K = 7;
+		System.out.println(hs.solution(scoville, K));
+		
 		
 	}
 
